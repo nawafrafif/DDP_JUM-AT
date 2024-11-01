@@ -51,8 +51,8 @@ print(f"1 + 3 + 5 + 7 +9 +11 +13 + 15 +17 +19 ={hasil}")
 print()
 print()
 print("=====soal no3=====")
-    
-for x in range(1,5) :
+a = input("masukan angka : ")
+for x in range(int(a)) :
     for y in range(x) :
         print("*", end="")
         y+=1
