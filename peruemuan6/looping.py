@@ -53,7 +53,7 @@ print()
 print("=====soal no3=====")
 a = input("masukan angka : ")
 for x in range(int(a)) :
-    for y in range(x) :
+    for y in range(x+1) :
         print("*", end="")
         y+=1
     print()
