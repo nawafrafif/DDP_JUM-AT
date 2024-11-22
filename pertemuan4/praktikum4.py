@@ -30,20 +30,20 @@ else:
     print("Anak-anak")
 10
 
-# Meminta pengguna untuk memasukkan status keanggotaan
-status = input("Masukkan status keanggotaan (gold, silver, bronze): ").lower()
+# # Meminta pengguna untuk memasukkan status keanggotaan
+# status = input("Masukkan status keanggotaan (gold, silver, bronze): ").lower()
 
-# Menentukan apakah pengguna mendapatkan diskon
-if status == "gold" or status == "silver":
-    print("Selamat! Anda mendapatkan diskon.")
-else:
-    print("Maaf, Anda tidak mendapatkan diskon.")
+# # Menentukan apakah pengguna mendapatkan diskon
+# if status == "gold" or status == "silver":
+#     print("Selamat! Anda mendapatkan diskon.")
+# else:
+#     print("Maaf, Anda tidak mendapatkan diskon.")
 
-# Meminta pengguna untuk memasukkan jumlah pembelian
-jumlah_pembelian = float(input("Masukkan jumlah pembelian: "))
+# # Meminta pengguna untuk memasukkan jumlah pembelian
+# jumlah_pembelian = float(input("Masukkan jumlah pembelian: "))
 
-# Menghitung total harga setelah diskon jika berlaku
-total_harga = jumlah_pembelian * (0.9 if jumlah_pembelian > 100 else 1)
+# # Menghitung total harga setelah diskon jika berlaku
+# total_harga = jumlah_pembelian * (0.9 if jumlah_pembelian > 100 else 1)
 
-# Mencetak total harga
-print(f"Total harga setelah diskon: {total_harga:.2f}")
+# # Mencetak total harga
+# print(f"Total harga setelah diskon: {total_harga:.2f}")
